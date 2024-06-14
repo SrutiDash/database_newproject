@@ -74,4 +74,13 @@ export class AllUserSearchComponent implements OnInit {
     this.userDetails = [];
     this.dataSource.data = this.userDetails;
   }
+  onPreviousData(): void {
+    console.log('Previous Data button clicked');
+    // Logic to fetch and display previous data will go here
+  }
+
+  onUpdatedData(): void {
+    console.log('Updated Data button clicked');
+    // Logic to fetch and display updated data will go here
+  }
 }

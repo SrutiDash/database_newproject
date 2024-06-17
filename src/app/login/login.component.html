@@ -1,6 +1,6 @@
 <!-- src/app/login/login.component.html -->
 
-<div class="login-container">
+<!-- <div class="login-container">
   <h2>Login</h2>
   <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <mat-form-field appearance="fill">
@@ -20,7 +20,91 @@
     <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">Submit</button>
   </form>
   <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+</div> -->
+
+<!-- new html -->
+
+<!-- src/app/login/login.component.html -->
+
+<!-- <div class="login-container">
+  <h2>Login</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+      <mat-label>User name</mat-label>
+      <input matInput formControlName="userId" required>
+      <mat-error *ngIf="loginForm.get('userId')?.hasError('required')">
+        User name is required
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" formControlName="password" required>
+      <mat-error *ngIf="loginForm.get('password')?.hasError('required')">
+        Password is required
+      </mat-error>
+    </mat-form-field>
+    <button mat-raised-button class="custom-submit-button" type="submit" [disabled]="loginForm.invalid">Submit</button>
+  </form>
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+</div> -->
+
+
+<!-- new 2 -->
+
+<!-- <div class="navbar">
+  <img src="comvivalogo.png" alt="Comviva Logo" class="navbar-logo">
 </div>
+<div class="login-container">
+  <h2>Login</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+      <mat-label>User name</mat-label>
+      <input matInput formControlName="userId" required class="custom-input-height">
+      <mat-error *ngIf="loginForm.get('userId')?.hasError('required')">
+        User name is required
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" formControlName="password" required class="custom-input-height">
+      <mat-error *ngIf="loginForm.get('password')?.hasError('required')">
+        Password is required
+      </mat-error>
+    </mat-form-field>
+    <button mat-raised-button class="custom-submit-button" type="submit" [disabled]="loginForm.invalid">Submit</button>
+  </form>
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+</div> -->
+
+<!-- ---------------new3---------------- -->
+
+
+<div class="navbar">
+  <img src="comvivalogo.png" alt="Comviva Logo" class="navbar-logo">
+</div>
+<div class="login-container">
+  <h2>Login</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+      <mat-label>User name</mat-label>
+      <input matInput formControlName="userId" required class="custom-input-height">
+      <mat-error *ngIf="loginForm.get('userId')?.hasError('required')">
+        User name is required
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" formControlName="password" required class="custom-input-height">
+      <mat-error *ngIf="loginForm.get('password')?.hasError('required')">
+        Password is required
+      </mat-error>
+    </mat-form-field>
+    <button mat-raised-button class="custom-submit-button" type="submit" [disabled]="loginForm.invalid">Submit</button>
+  </form>
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+</div>
+
+
 
 
 

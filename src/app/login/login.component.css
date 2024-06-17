@@ -1,5 +1,5 @@
 /* src/app/login/login.component.css */
-.login-container {
+/* .login-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,13 +13,264 @@ form {
     max-width: 400px;
     display: flex;
     flex-direction: column;
+} */
+
+/* ------------------------------- */
+
+
+/* .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 16spx;
 }
 
-mat-form-field {
+form {
     width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-input-height {
+    height: 20 cm;
+    box-sizing: border-box;
+}
+
+
+mat-form-field {
+    height: 30%;
 }
 
 button {
     align-self: center;
     margin-top: 16px;
+} */
+
+/* -----------------------------------new2 */
+
+/* .navbar {
+    width: 100%;
+    background-color: #e31837;
+    color: white;
+    height: 25px;
+    padding: 16px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 16px; */
+    /* padding-top: 80px;  */
+    /* Add padding-top to prevent content from being hidden behind the navbar */
+/* } */
+
+/* form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-input-height {
+    height: auto;
+    box-sizing: border-box;
+}
+
+mat-form-field {
+    width: 100%;
+    height: 50px;
+}
+
+button {
+    align-self: center;
+    margin-top: 16px; */
+    /* border-radius: 5px; */
+/* }
+
+ .custom-submit-button {
+    background-color: #e31837 !important;   */
+    /* Example custom color */
+    /* color: white !important; */
+    /* border-radius: 3px;  */
+    /* Make button rectangular */
+    /* padding: 10px 15px;  */
+    /* Adjust padding for a better look */
+    /* box-sizing: border-box;
+    transition: background-color .1s ease-out;
+    border-radius: 3.01px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-variant: normal;
+ }
+
+.custom-submit-button:hover {
+    background-color: hsl(351, 81%, 44%) !important;   */
+    /* Darken color on hover */
+ /* }  */
+
+/* Additional optional styles to ensure consistent button appearance */
+/* .custom-submit-button:disabled {
+    background-color: #e31837 !important;
+    cursor: not-allowed;
+} */
+
+/* .custom-submit-button:not(:disabled):hover {
+    background-color: #c91530 !important;  */
+    /* Darken color on hover */
+ /* }  */
+
+
+
+/* ---------------------------- */
+
+/* --new3---------------------- */
+
+.navbar {
+    width: 100%;
+    background-color: #e31837;
+    color: white;
+    height: 57px; /* Adjust height to fit the logo properly */
+    padding: 0 16px; /* Adjust padding */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 100%;
+    margin-right: auto;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 6px;
+    padding-top: 80px; /* Add padding-top to prevent content from being hidden behind the navbar */
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-input-height {
+    height: auto; /* Adjust height to auto */
+    box-sizing: border-box;
+}
+
+mat-form-field {
+    padding: 4px 8px;
+    /* width: 100%; */
+    /* margin-bottom: 16px;  */
+    /* Add margin-bottom for spacing */
+}
+
+mat-form-field input {
+    height: 0.7cm; /* Set the desired height */
+    padding: 8px; /* Add padding */
+}
+
+button {
+    align-self: center;
+    margin-top: 16px;
+    /* border-radius: 5px; */
+}
+
+.custom-submit-button {
+    background-color: #e31837 !important;  
+    /* Example custom color */
+    color: white !important;
+    /* border-radius: 3px;  */
+    /* Make button rectangular */
+    padding: 10px 15px; 
+    /* Adjust padding for a better look */
+    box-sizing: border-box;
+    transition: background-color .1s ease-out;
+    border-radius: 3.01px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-variant: normal;
+ }
+
+.custom-submit-button:hover {
+    background-color: hsl(351, 81%, 44%) !important;  
+    /* Darken color on hover */
+}
+
+/* Additional optional styles to ensure consistent button appearance */
+.custom-submit-button:disabled {
+    background-color: #e31837 !important;
+    cursor: not-allowed;
+}
+
+.custom-submit-button:not(:disabled):hover {
+    background-color: #c91530 !important; 
+    /* Darken color on hover */
+}
+
+
+/* ------------------------------------------------ */
+/* Custom styles */
+/* .custom-submit-button {
+    background-color: #e31837 !important; 
+    color: white !important;
+  }
+  
+  .custom-submit-button:hover {
+    background-color: #c91530 !important; 
+  } */
+
+  /* Custom styles for the submit button */
+
+/* ----------------------------------   */
+/* .custom-submit-button {
+    background-color: #e31837 !important;  */
+    /* Example custom color */
+    /* color: white !important;
+    border-radius: 0;  */
+    /* Make button rectangular */
+    /* padding: 10px 20px;  */
+    /* Adjust padding for a better look */
+/* }
+
+.custom-submit-button:hover {
+    background-color: #c91530 !important;  */
+    /* Darken color on hover */
+/* } */
+
+/* Additional optional styles to ensure consistent button appearance */
+/* .custom-submit-button:disabled {
+    background-color: #e31837 !important;
+    cursor: not-allowed;
+}
+
+.custom-submit-button:not(:disabled):hover {
+    background-color: #c91530 !important;  */
+    /* Darken color on hover */
+/* } */
